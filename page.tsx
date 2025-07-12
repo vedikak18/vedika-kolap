@@ -66,7 +66,7 @@ function AboutSection() {
         </div>
         
         <a
-          href="/Vedika_Kolap_resume.pdf" // Update this with the actual path to your resume
+          href="/Vedika_Kolap_Resume.pdf" // Update this with the actual path to your resume
           download
           className="px-4 py-2 bg-purple-500 text-white font-semibold rounded-lg shadow-md hover:bg-purple-600 transition"
         >
