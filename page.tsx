@@ -84,7 +84,7 @@ const AboutSection = () => (
     <div className="space-y-12">
       <div className="flex justify-between items-start flex-col md:flex-row">
         <div className="md:w-3/4">
-          <h1 className="text-3xl font-bold text-white mb-4">About Me</h1>
+          <h2 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-400 mb-8">About Me</h2>
           <p className="text-lg text-gray-300 leading-relaxed">
             I’m Vedika Kolap, an MCA graduate turned UI/UX designer with a strong passion for crafting intuitive, user-first digital experiences. My background in computer applications helps me bridge the gap between design and technology, ensuring every product I work on is both visually appealing and functionally sound.
 
@@ -111,7 +111,9 @@ With hands-on experience in creating responsive web designs, mobile interfaces, 
       </div>
 
       <div>
-        <h2 className="text-3xl font-semibold text-white mb-8">What I'm Doing</h2>
+      <h2 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-400 mb-8">
+          What I'm Doing
+      </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ServiceCard
             icon={Smartphone}
@@ -152,7 +154,7 @@ const SkillsSection = () => {
 
   return (
     <SectionWrapper id="skills">
-      <h1 className="text-3xl font-bold text-white mb-8">Skills</h1>
+      <h2 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-400 mb-8">Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {skills.map((group, idx) => (
           <div key={idx} className="bg-zinc-900/30 p-4 rounded-xl">
@@ -205,7 +207,7 @@ const ResumeSection = () => {
 
   return (
     <SectionWrapper id="resume">
-      <h1 className="text-3xl font-bold text-white mb-10">Resume</h1>
+      <h2 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-400 mb-8">Resume</h2>
       <TimelineBlock title="Experience" items={experience} />
       <TimelineBlock title="Education" items={education} />
     </SectionWrapper>
@@ -268,7 +270,7 @@ function ProjectsSection() {
 
   return (
     <div id="projects" className="space-y-8">
-      <h1 className="text-3xl font-bold text-white mb-8">Projects</h1>
+      <h2 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-400 mb-8">Projects</h2>
       <div className="w-16 h-1 bg-purple-400 mb-8" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
