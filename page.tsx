@@ -42,7 +42,7 @@ const Sidebar = () => (
     <div className="relative">
       <img src="/pp2.jpg" alt="Profile" className="w-32 h-32 rounded-2xl" />
     </div>
-    <h2 className="text-2xl font-semibold mt-4">Vedika Kolap</h2>
+    <h2 className="text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-400 mb-8">Vedika Kolap</h2>
     <div className="bg-zinc-800/50 px-4 py-1.5 rounded-full text-base mt-2">Full Stack Developer</div>
     <div className="w-full mt-8 space-y-6">
       <div className="flex items-center gap-4">
