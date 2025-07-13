@@ -86,25 +86,25 @@ const AboutSection = () => (
         <div className="md:w-3/4">
           <h1 className="text-3xl font-bold text-white mb-4">About Me</h1>
           <p className="text-lg text-gray-300 leading-relaxed">
-            A passionate and detail-oriented software developer with expertise in Java, SQL, and
-            UI/UX design. Skilled in building efficient applications, working with databases, 
-            and enhancing user experiences. Experienced in developing interactive applications,
-            designing intuitive user interfaces, and implementing scalable solutions. 
-            Adept at working with modern development tools and frameworks to create 
-            high-quality software.
+            I’m Vedika Kolap, an MCA graduate turned UI/UX designer with a strong passion for crafting intuitive, user-first digital experiences. My background in computer applications helps me bridge the gap between design and technology, ensuring every product I work on is both visually appealing and functionally sound.
+
+With hands-on experience in creating responsive web designs, mobile interfaces, and end-to-end user flows, I focus on turning complex problems into elegant, accessible solutions.
+
+
           </p>
 
           <p className="text-lg text-gray-300 leading-relaxed mt-4">
-            If you're looking for a dedicated developer who can bring innovation and precision 
-            to your project, I’m here to collaborate and deliver exceptional results. 
-            Let’s build something remarkable together!
+            📍 Based in India
+            🌍 Open to remote roles worldwide
+
+
           </p>
         </div>
 
         <a
           href="/Vedika_Kolap_Resume.pdf"
           download
-          className="bg-purple-500 text-white font-semibold px-4 py-2 rounded-xl mt-6 md:mt-0 hover:bg-purple-600 transition"
+          className="bg-purple-500 text-white font-semibold px-4 py-2 rounded-xl mt-6 md:mt-0 hover:bg-purple-600 hover:scale-105 hover:shadow-lg transition-transform duration-300"
         >
           Download Resume
         </a>
@@ -285,8 +285,8 @@ function ProjectsSection() {
               alt={project.title}
               className="w-full h-48 object-cover rounded-xl mb-4"
             />
-            <div className="flex-1">
-              <h3 className="text-white text-xl font-semibold mb-1">{project.title}</h3>
+            <div className="bg-zinc-900/30 p-4 rounded-xl hover:bg-zinc-800 hover:scale-[1.02] hover:shadow-xl transition-all duration-300 group cursor-pointer">
+            <h3 className="text-white text-xl mb-1 group-hover:underline">{project.title}</h3>
               <p className="text-gray-400 text-sm mb-4">{project.subtitle}</p>
             </div>
             <div className="flex items-center gap-2 text-purple-400 text-sm font-medium mt-auto">
