@@ -149,7 +149,8 @@ const SkillsSection = () => {
     { category: "Frontend", items: ["HTML", "CSS", "React", "Typescript", "Tailwind"] },
     { category: "Backend", items: ["Java", "PostgreSQL"] },
     { category: "Mobile", items: ["Android Studio (Java/Kotlin)"] },
-    { category: "Tools", items: ["Git", "GitHub", "VS Code", "Figma","Wix", "Postman","Notion" ] },
+    { category: "Tools", items: ["Git", "GitHub", "VS Code", "Postman","Notion" ] },
+    { category: "Design", items: ["Figma", "Wix", "Wireframing", "Prototyping","User Flows"] }
   ]
 
   return (
