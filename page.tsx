@@ -56,25 +56,27 @@ function ServiceCard({ icon: Icon, title, description }) {
   )
 }
 
-function AboutSection() {
-  return (
-    <div className="space-y-12">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-3xl font-bold text-white mb-8">About Me</h1>
-          <div className="w-16 h-1 bg-purple-400 mb-8" />
-        </div>
-        
-        <a
-          href="/Vedika_Kolap_Resume.pdf" // Update this with the actual path to your resume
-          download
-          className="px-4 py-2 bg-purple-500 text-white font-semibold rounded-lg shadow-md hover:bg-purple-600 transition"
-        >
-          Download Resume
-        </a>
-      </div>
+const SectionWrapper = ({ id, children }) => (
+  <section id={id} className="py-20 px-6 md:px-16">
+    <div className="max-w-6xl mx-auto">{children}</div>
+  </section>
+)
 
-      <div className="space-y-6">
+const ServiceCard = ({ icon: Icon, title, description }) => (
+  <div className="bg-zinc-900/30 rounded-xl p-6 hover:bg-zinc-800/50 transition-all duration-300">
+    <div className="w-12 h-12 rounded-lg bg-purple-500/10 flex items-center justify-center mb-4">
+      <Icon className="text-purple-400" size={24} />
+    </div>
+    <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
+    <p className="text-base text-gray-300 leading-relaxed">{description}</p>
+  </div>
+)
+
+const AboutSection = () => (
+  <SectionWrapper id="about">
+    <div className="space-y-12">
+      <div>
+        <h1 className="text-3xl font-bold text-white mb-4">About Me</h1>
         <p className="text-lg text-gray-300 leading-relaxed">
           A passionate and detail-oriented software developer with expertise in Java, SQL, and
           UI/UX design. Skilled in building efficient applications, working with databases, 
@@ -84,7 +86,7 @@ function AboutSection() {
           high-quality software.
         </p>
 
-        <p className="text-lg text-gray-300 leading-relaxed">
+        <p className="text-lg text-gray-300 leading-relaxed mt-4">
           If you're looking for a dedicated developer who can bring innovation and precision 
           to your project, I’m here to collaborate and deliver exceptional results. 
           Let’s build something remarkable together!
@@ -117,8 +119,9 @@ function AboutSection() {
         </div>
       </div>
     </div>
-  )
-}
+  </SectionWrapper>
+)
+
 
 
 function ProjectsSection() {
