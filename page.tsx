@@ -144,10 +144,10 @@ With hands-on experience in creating responsive web designs, mobile interfaces, 
 
 const SkillsSection = () => {
   const skills = [
-    { category: "Frontend", items: ["HTML", "CSS", "React", "Next.js", "Tailwind"] },
+    { category: "Frontend", items: ["HTML", "CSS", "React", "Typescript", "Tailwind"] },
     { category: "Backend", items: ["Java", "PostgreSQL"] },
-    { category: "Mobile", items: ["Android Studio"] },
-    { category: "Tools", items: ["Git", "GitHub", "VS Code", "Figma"] },
+    { category: "Mobile", items: ["Android Studio (Java/Kotlin)"] },
+    { category: "Tools", items: ["Git", "GitHub", "VS Code", "Figma","Wix", "Postman","Notion" ] },
   ]
 
   return (
