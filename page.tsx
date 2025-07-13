@@ -104,7 +104,7 @@ With hands-on experience in creating responsive web designs, mobile interfaces, 
         <a
           href="/Vedika_Kolap_Resume.pdf"
           download
-          className="bg-purple-500 text-white font-semibold px-4 py-2 rounded-xl mt-6 md:mt-0 hover:bg-purple-600 hover:scale-105 hover:shadow-lg transition-transform duration-300"
+          className="bg-purple-500 text-white font-semibold px-3 py-2 rounded-xl mt-4 md:mt-0 hover:bg-purple-600 hover:scale-105 hover:shadow-lg transition-transform duration-300"
         >
           Download Resume
         </a>
