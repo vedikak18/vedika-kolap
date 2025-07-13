@@ -322,17 +322,22 @@ export default function OnePagePortfolio() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
+ return (
+  <div className="min-h-screen bg-gradient-to-br from-[#0d0d14] to-[#1a1428] text-white relative">
+    <ScrollNav activeSection={activeSection} setActiveSection={setActiveSection} />
+    <Sidebar />
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0d0d14] to-[#1a1428] text-white">
-      <ScrollNav activeSection={activeSection} setActiveSection={setActiveSection} />
-      <Sidebar />
-      <main className="ml-[300px] pt-32 px-10">
+    {/* Glass container wrapping main content */}
+    <div className="ml-[300px] pt-32 pr-10 pl-10 pb-10">
+      <div className="bg-zinc-900/30 backdrop-blur-md border border-white/10 rounded-3xl p-8 md:p-10 space-y-20">
+  
         <AboutSection />
         <SkillsSection />
         <ResumeSection />
         <ProjectsSection />
-      </main>
+      </div>
     </div>
-  )
+  </div>
+)
+
 }
