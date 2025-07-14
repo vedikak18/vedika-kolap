@@ -220,30 +220,6 @@ const ResumeSection = () => {
 function ProjectsSection() {
   const projects = [
     {
-      title: "Electricity Billing System",
-      subtitle: "Using Java, Mysql",
-      image: "/project1.jpeg",
-      link: "#",
-    },
-    {
-      title: "Ebike Android App",
-      subtitle: "Using Java, firebase, html, css",
-      image: "/project2.jpg",
-      link: "#",
-    },
-    {
-      title: "Power Generation and Piezo Technology",
-      subtitle: "Using IOT Components",
-      image: "/project3.jpg",
-      link: "#",
-    },
-    {
-      title: "Personal Portfolio",
-      subtitle: "Next.js and TypeScript, using Tailwind CSS for styling",
-      image: "/project4.png",
-      link: "https://vedika-kolap.vercel.app",
-    },
-    {
       title: "Kouriex",
       subtitle: "Built using wix",
       image: "/project7.png",
@@ -260,6 +236,12 @@ function ProjectsSection() {
       subtitle: "Built using wix",
       image: "/project6.png",
       link: "https://www.capitorinfra.com/",
+    },
+    {
+      title: "Personal Portfolio",
+      subtitle: "Next.js and TypeScript, using Tailwind CSS for styling",
+      image: "/project4.png",
+      link: "https://vedika-kolap.vercel.app",
     },
     {
       title: "Anvex Insight..",
