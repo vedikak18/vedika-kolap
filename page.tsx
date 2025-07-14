@@ -248,7 +248,7 @@ function ProjectsSection() {
       subtitle: "Working on website....",
       image: "/progress.png",
       link: "",
-    },
+    }
   ];
 
   return (
