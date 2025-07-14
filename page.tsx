@@ -246,8 +246,8 @@ function ProjectsSection() {
     {
       title: "Anvex Insight..",
       subtitle: "Working on website....",
-      image: "/placeholder.svg",
-      link: "#",
+      image: "/progress.png",
+      link: "",
     },
   ];
 
