@@ -177,6 +177,8 @@ const ResumeSection = () => {
     { title: "Jr. Full Stack Developer", subtitle: "Vsure Consultancy", date: "May 2025 - Present" },
 
     { title: "Full Stack Developer Intern", subtitle: "Vsure Consultancy", date: "Nov 2024 - May 2025" },
+    { title: "Freelance", subtitle: For UI / UX, date: "Nov 2024 - May 2025" },
+
   ];
 
   const education = [
